@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.snowalker.shardingjdbc</groupId>
-    <artifactId>snowalker-shardingjdbc-demo</artifactId>
+    <artifactId>shardingjdbc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>snowalker-shardingjdbc-demo</name>
+    <name>shardingjdbc</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

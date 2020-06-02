@@ -1,0 +1,20 @@
+package com.snowalker.shardingjdbc.snowalker.demo.service;
+
+import com.snowalker.shardingjdbc.snowalker.demo.entity.OrderInfo;
+import com.snowalker.shardingjdbc.snowalker.demo.entity.UoInfo;
+
+import java.util.List;
+
+/**
+ * @author snowalker
+ * @version 1.0
+ * @date 2019/3/3 22:39
+ * @className OrderService
+ * @desc
+ */
+public interface UoService {
+
+
+    int addOrder(UoInfo uoInfo);
+    List<UoInfo> getUoInfo(UoInfo uoInfo);
+}
